@@ -5,17 +5,17 @@
 
 	<groupId>com.dong</groupId>
 	<artifactId>djadmin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2.5</version>
 	<description>Demo project for Spring Boot</description>
 	<name>DJ-ADMIN 后台管理</name>
 
-	<!--<modules>-->
-		<!--<module>eladmin-common</module>-->
+	<modules>
+		<!-- -<module>eladmin-common</module>-->
 		<!--<module>eladmin-logging</module>-->
-		<!--<module>eladmin-system</module>-->
 		<!--<module>eladmin-tools</module>-->
 		<!--<module>eladmin-generator</module>-->
-	<!--</modules>-->
+		<module>djadmin-system</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
